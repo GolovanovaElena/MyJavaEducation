@@ -117,7 +117,7 @@ public class Main {
             ExampleLinkedHashSet.remove(22300);
             System.out.println("LinkedHashSet: " + (System.nanoTime() - start));
             start = System.nanoTime();
-            ExampleTreeSet.add(33.5);
+            ExampleTreeSet.remove(33.5);
             System.out.println("TreeSet: " + (System.nanoTime() - start) + "\n");
 
         }
@@ -155,7 +155,7 @@ public class Main {
             ExampleLinkedHashMap.remove(22300);
             System.out.println("LinkedHashMap: " + (System.nanoTime() - start));
             start = System.nanoTime();
-            ExampleTreeMap.get(3326);
+            ExampleTreeMap.remove(22300);
             System.out.println("TreeMap: " + (System.nanoTime() - start) + "\n");
 
         }
